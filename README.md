@@ -7,7 +7,7 @@ Getting the list of the artist who have and are contributing to the Modern Art.
 
 ## Data Origin Note Source: 
 #### https://www.kaggle.com/datasets/momanyc/museum-collection?select=artists.csv
-### Date accessed: 05.11.2026
+### Date accessed: 11.05.2026
 ### License: 
 #### https://creativecommons.org/publicdomain/zero/1.0/ 
 ## Description: 
