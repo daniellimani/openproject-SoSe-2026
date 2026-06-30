@@ -19,6 +19,7 @@ The notebook is organised into the following sections:
    - Archiving & Sharing
 6. Results
 7. Key Findings
+8. Results
 
 ## Project Description
 
@@ -176,4 +177,3 @@ The preprocessing workflow successfully separated the original dataset into mult
 The preparation for Wikidata enrichment introduced additional metadata fields required for entity resolution and semantic linking.
 
 The resulting datasets provide a cleaner and more structured foundation for future analysis and metadata enhancement.
-
