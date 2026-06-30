@@ -32,6 +32,15 @@ The primary purpose of this research is to evaluate the completeness and quality
 
 The project demonstrates a typical digital humanities workflow consisting of data cleaning, metadata enhancement, entity resolution, and descriptive analysis.
 
+## Data Origin Note Source: 
+#### https://www.kaggle.com/datasets/momanyc/museum-collection?select=artists.csv
+### Date accessed: 
+11.05.2026
+### License: 
+https://creativecommons.org/publicdomain/zero/1.0/ 
+
+The Museum’s website features 72,706 artworks from 20,956 artists. The artworks dataset contains 130,262 records, representing all of the works that have been accessioned into MoMA’s collection and cataloged in our database. It includes basic metadata for each work, including title, artist, date, medium, dimensions, and date acquired by the Museum. Some of these records have incomplete information and are noted as “not curator approved.”
+
 ## Data Origin
 
 The dataset used in this project originates from the Museum of Modern Art (MoMA) Collection and contains metadata describing artists represented in the collection.
