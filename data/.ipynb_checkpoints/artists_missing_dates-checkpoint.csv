@@ -97,7 +97,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 219,Siah Armajani,American,Male,1939.0,
 221,Armando,Dutch,Male,1929.0,
 222,F. Armbruster,Nationality unknown,,,
-228,Arndt,German,,1898.0,1976.0
 232,Conrad Atkinson,British,Male,1940.0,
 234,Terry Atkinson,British,Male,1939.0,
 236,Dotty Attie,American,Female,1938.0,
@@ -169,14 +168,12 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 403,Douglas Baz,American,Male,1943.0,
 411,Mark Beard,American,Male,1956.0,
 414,Bruce Beasley,American,Male,1939.0,
-415,Beath,British,,1913.0,1991.0
 418,Leslie Beaton,American,Female,,
 421,Alessandro Becchi,Italian,Male,1946.0,
 424,Robert Bechtle,American,Male,1932.0,
 426,A. Becker,German,,,
 428,Bill Beckley,American,Male,1946.0,
 436,Hedda Beese,German,Female,1944.0,
-437,"Beggarstaffs (James Pryde, Scottish 1866-1941 & William Nicholson, British 1872-1949)",British,,1866.0,1949.0
 440,John Behringer,American,Male,1939.0,
 444,Larry Bell,American,Male,1939.0,
 448,Joseph Bellanca,American,Male,1930.0,
@@ -312,7 +309,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 776,Judson Briggs,American,Male,1906.0,
 779,Denis Brihat,French,Male,1928.0,
 780,Enrique Brinkmann,Spanish,Male,1938.0,
-782,L. N. Britton,American,,1858.0,1934.0
 784,John Brockman,American,Male,1941.0,
 789,Alexander Brodsky,Russian,Male,,
 790,Jürgen Brodwolf,Swiss,Male,1932.0,
@@ -342,7 +338,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 840,Boris Bućan,Croatian,Male,1947.0,
 841,Erich Buchegger,Austrian,Male,1924.0,
 845,John Buck,American,Male,1946.0,
-846,Peer Bücking,German,,1906.0,1940.0
 849,Stephen Buckley,British,Male,,
 851,Dan Budnik,American,Male,1933.0,
 852,Budry,Greek,,,
@@ -585,7 +580,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 1432,Regina Maria De Luise,American,Female,1959.0,
 1437,Victor De Palma,Nationality unknown,Male,,
 1440,Jérôme De Perlinghi,Belgian,Male,1961.0,
-1442,J. De Praetre,German,,1879.0,1947.0
 1446,Lewis De Soto,American,Male,1954.0,
 1448,Marco De Valdivia,Chilean,Male,1947.0,
 1452,Erwin De Vries,Dutch,Male,,
@@ -910,7 +904,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 2179,A. Gisiger,Swiss,,,
 2181,Gits Molding Corp.,American,,,
 2182,Len Gittleman,American,Male,1932.0,
-2185,Glanzman-Parker,American,,1952.0,1970.0
 2188,Milton Glaser,American,Male,1929.0,
 2193,Arnold Glimcher,American,Male,1938.0,
 2195,Hermann Glockner,German,Male,,
@@ -957,7 +950,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 2286,Paul Graham,British,Male,1956.0,
 2292,Martus Granirer,American,Male,1933.0,
 2296,Graphicteam BDG,German,,,
-2297,Grapus,French,,1970.0,1991.0
 2298,James Bruce Grashow,American,Male,1942.0,
 2300,Günter Grass,German,Male,,
 2305,Hein Gravenhorst,German,Male,,
@@ -994,10 +986,7 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 2370,André Grossman,German,Male,,
 2373,Robert Grosvenor,American,Male,1937.0,
 2375,Jan Groth,Norwegian,Male,1938.0,
-2377,Gruppo N,,,1959.0,1964.0
-2378,Beatrice Grover,American,,1901.0,1994.0
 2379,Ronald L. Grow,Nationality unknown,Male,,
-2382,Gruppo Architetti Urbanisti Città Nuova,Italian,,1961.0,1991.0
 2383,Gryte,Nationality unknown,,,
 2384,Carlo Guarienti,Italian,Male,1923.0,
 2385,Nancy Guay Giesberger,American,Female,1945.0,
@@ -1334,7 +1323,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 3101,David Kindersley,British,Male,1915.0,
 3102,Bruce Anthony King,Canadian,Male,1934.0,
 3104,Phillip King,British,Male,1934.0,
-3105,W. B. King,American,,1880.0,1927.0
 3108,Jonah Kinigstein,American,Male,1923.0,
 3112,Yasuhiro Kira,Japanese,Male,1947.0,
 3113,Michael Kirby,American,Male,1931.0,
@@ -1677,7 +1665,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 3859,Peter Max,American,Male,1937.0,
 3861,Elaine Mayes,American,Female,1938.0,
 3863,Fernando Maza,Argentine,Male,,
-3865,Luis Mazzey,,Male,1895.0,1983.0
 3866,Azaria Mbatha,South African,Male,1941.0,
 3869,Jay McCafferty,American,Male,1948.0,
 3871,Byron McClintock,American,Male,1930.0,
@@ -1847,7 +1834,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 4200,Naganuma Koichi,Japanese,Male,,
 4202,Takeo Nagasawa,Japanese,Male,,
 4203,John Nagel,American,Male,1942.0,
-4205,Fred Nagler,Nationality unknown,,1891.0,1983.0
 4206,Nagwaraba,Australian,Male,,
 4208,Masatoshi Naitoh,Japanese,Male,1938.0,
 4209,Naoto Nakagawa,Japanese,Male,1944.0,
@@ -1856,7 +1842,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 4219,Ronald Nameth,American,Male,,
 4221,Mauricio Nannucci,Italian,Male,1939.0,
 4225,James Nares,British,Male,1953.0,
-4226,Willard Nash,Nationality unknown,,1898.0,1942.0
 4230,Ben Nason,American,Male,1915.0,
 4231,Carlo Nason,Italian,Male,1935.0,
 4232,Giuseppe Nason,Italian,Male,,
@@ -2151,7 +2136,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 4913,James Riddle,American,Male,1933.0,
 4916,John Rieben,American,Male,1935.0,
 4917,Claus Joseph Riedel,Austrian,Male,1925.0,
-4920,S. H. Riesenberg,American,,1885.0,1962.0
 4923,P. Riffaut,French,,,
 4927,Rigobaldi,Italian,,,
 4929,Bridget Riley,British,Female,1931.0,
@@ -2168,7 +2152,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 4969,Gunther Rochelt,German,Male,1939.0,
 4970,Rocher,French,,,
 4972,Dorothea Rockburne,American,Female,1932.0,
-4973,Rockwood and Company,American,,1832.0,1911.0
 4979,Mary Rodney,American,Female,,
 4982,Juan Carlos Rodriguez,Nationality unknown,Male,,
 4985,Jenny Roed,German,Female,,
@@ -2544,7 +2527,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 5729,Carol Summers,American,Male,1925.0,
 5731,H. Y. Sümmons,American,,,
 5732,Britt-Louise Sundell,Swedish,Female,1928.0,
-5733,Superstudio,Italian,,1966.0,1982.0
 5738,Hugo Suter,Swiss,Male,1943.0,
 5741,William B. Suttle,American,Male,,
 5742,William Stephen Sutton,American,Male,1956.0,
@@ -2673,7 +2655,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 6001,Jerry Uelsmann,American,Male,1934.0,
 6003,Ulla af Ugglas,Swedish,Female,1916.0,
 6005,Timm Ulrichs,German,Male,1940.0,
-6008,Underwood and Underwood,American,,1880.0,1934.0
 6009,G. F. Underwood,American,,,
 6011,Unknown Designer,Nationality unknown,,,
 6013,Unknown Designer,French,,,
@@ -2690,7 +2671,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 6026,Unknown Artist,Nationality unknown,,,
 6030,Unknown Artist,American,,,
 6031,Unknown sculptor,,,,
-6032,Unknown Graphic Artist,American,,1895.0,1946.0
 6035,José Urbach,American,Male,1940.0,
 6039,Graziella Urbinati,Italian,Female,1927.0,
 6040,Tony Urquhart,Canadian,Male,1934.0,
@@ -2725,7 +2705,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 6106,Various Artists,Russian,,,
 6107,Various Artists,Various,,,
 6110,Sigurd Vasegaard,Danish,Male,,
-6111,Yuri V. (Mon) Vasiliev,Russian,,1925.0,1990.0
 6112,Mohsen Vaziri-Moqaddam,Iranian,Male,1924.0,
 6114,Keith Vaughan,British,Male,,
 6115,Ben Vautier,French,Male,1935.0,
@@ -3027,7 +3006,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 6720,Jeanne Granès,Nationality unknown,Female,,
 6721,L. H. Monod,Nationality unknown,,,
 6724,L. O. Merson,Nationality unknown,,,
-6730,Arthur N. Christie,American,,1891.0,1980.0
 6734,M. Kennedy,American,,,
 6746,Robert Beaven,American,Male,,
 6747,David Black,Nationality unknown,Male,,
@@ -3082,7 +3060,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 6805,Raúl Cattelani,Nationality unknown,Male,,
 6806,Dan Dailey,American,Male,1947.0,
 6807,Laurie Anderson,American,Female,1947.0,
-6808,Jr. Arnold,American,,1915.0,1991.0
 6809,John Ashbery,American,Male,1927.0,
 6811,Lucinda Childs,American,Female,1940.0,
 6812,Jane Comfort,American,Female,1945.0,
@@ -3650,7 +3627,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 7679,Kara Walker,American,Female,1969.0,
 7680,Michael Joaquin Grey,American,Male,1961.0,
 7681,Paulina Wallenberg-Olsson,,Female,,
-7682,Group Material,American,,1979.0,1996.0
 7683,Helga von Eicken-Kopperl,Canadian,Female,,
 7685,Peter Nadin,American,Male,1954.0,
 7688,Adam Bartos,American,Male,1953.0,
@@ -3936,7 +3912,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 8178,Brigitte Kochta,German,Female,1958.0,
 8179,Luc Reuse,Belgian,Male,1955.0,
 8180,M. Bosshard,Italian,Male,,
-8181,Jacques-Philippe Potteau,French,,1807.0,1876.0
 8183,Eleanor Antin,American,Female,1935.0,
 8184,Phel Steinmetz,American,Male,1944.0,
 8186,Micha Bar-Am,Israeli,Female,1930.0,
@@ -3961,7 +3936,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 8209,Beryl Marton,American,Female,,
 8210,John Ross,American,Male,,
 8211,Giovanni Anselmo,Italian,Male,1934.0,
-8213,Venturi and Rauch,American,,1964.0,1979.0
 8214,John Rauch,American,Male,1930.0,
 8215,"Venturi, Rauch and Scott Brown",American,,1980.0,
 8216,Denise Scott Brown,American,Female,1931.0,
@@ -4050,7 +4024,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 8345,Karl Michel,German,Male,1895.0,
 8346,Hans Michel,German,Male,1920.0,
 8347,Brian Tattersfield,British,Male,1936.0,
-8348,Heini Fischer-Corso,Swiss,,1921.0,1990.0
 8349,Shirin Neshat,Iranian,Female,1957.0,
 8350,Nicolaus Ott,German,Male,1949.0,
 8351,Alfred Bernard Stein,German,Male,1947.0,
@@ -4075,7 +4048,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 8409,Makoto Saito,Japanese,Male,1952.0,
 8410,A. Wagner,German,,,
 8411,Kevin Dwyer,American,Male,1952.0,
-8412,Haus-Rucker-Co,Austrian,,1967.0,1992.0
 8413,Günter Zamp Kelp,Austrian,Male,1941.0,
 8414,Klaus Pinter,Austrian,Male,1940.0,
 8415,Carl Jacobs,Danish,Male,1925.0,
@@ -4176,7 +4148,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 8562,International Newsreel,,,,
 8563,Bob Jackson,American,Male,1934.0,
 8565,Edward Keating/The New York Times,American,Male,1956.0,
-8567,Keystone View Company,American,,1892.0,1972.0
 8570,Lechner/The New York Times,Nationality unknown,,,
 8571,Jay King,American,Male,1944.0,
 8574,Franz Lowy/Times Wide World,Austrian,Male,,
@@ -4195,7 +4166,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 8590,Peter G. Kayafas,American,Male,1971.0,
 8591,The New York Times Studio,,,,
 8592,Cal Osbon,American,Male,,
-8593,Pacific & Atlantic Photos,,,1921.0,1932.0
 8594,Keith Pannel/Mail on Sunday,British,Male,1956.0,
 8595,Unknown photographer,,,,
 8596,Bill Parsons / Nancy Palmer Agency,Nationality unknown,Male,,
@@ -4227,7 +4197,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 8629,Glenn Rudolph,American,Male,1946.0,
 8630,Paul Thompson,American,Male,,
 8631,Times Photo Service,,,,
-8632,Times Wide World Photos,American,,1919.0,1941.0
 8633,Caroline Feyt,French,Female,1965.0,
 8635,Jean Christian Bourcart,French,Male,1960.0,
 8636,Bob Beerman,American,Male,,
@@ -4843,7 +4812,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 10401,"Kundalini srl. - Corpi di Illuminazione, Milan",,,,
 10404,"Strategi/Holmback ApS, Copenhagen",,,,
 10406,"Boda Nova, Sweden",,,1970.0,
-10415,"Morris & Co., London",,,1862.0,1940.0
 10416,"Campana Objetos, São Paulo, Brazil",,,,
 10418,"FRZ-Metallwarenfabrik, Zuzenhausen, Germany",,,,
 10419,"Edra Mazzei, Pisa, Italy",,Female,,
@@ -5123,7 +5091,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 11118,"Rochelt Design, Ulm, Germany",,,,
 11119,"Columbian Bronze Corp., Freeport, NY",,,,
 11124,"John Mascheroni Furniture Co., New York, NY",,,,
-11125,"Neal Small Designs Inc., New York, NY",,,1965.0,1973.0
 11128,"France and Son A/S, Denmark",,,,
 11130,"Artifort, The Netherlands",,,,
 11131,"Raumtechnik Staeger & Co. KG, Stuttgart",,,,
@@ -5178,15 +5145,11 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 11799,Orell Füssli,Swiss,,,
 11811,"A. Molling & Comp., Hannover, Germany",,,,
 11860,Various Authors,,,,
-12001,Vladimir Burliuk,,Male,1886.0,1917.0
 12025,Elena Guro,,Female,,
-12074,"Maria Siniakova, Russian, 1898-1989",,Female,1898.0,1989.0
 12101,Niele Toroni,Swiss,Male,1937.0,
-12124,Pavel Filonov,,Male,1883.0,1941.0
 12225,Nikolai Rogovin,,Male,,
 12305,David Mamet,American,Male,1947.0,
 12310,Lev Shekhtel [Lev Zhegin],,Male,,
-12312,Vasilii Chekrygin,,Male,1897.0,1922.0
 12315,Sergei Podgaevskii,,Male,,
 12318,Sergei Bobrov,,Male,,
 12382,Liz Larner,American,Female,1960.0,
@@ -5232,7 +5195,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 14138,Nikki Bell,British,Female,1959.0,
 14161,Iurii Degen,,Male,,
 14164,Michael McClure,American,Male,1932.0,
-14185,Aleksei Remizov,,Male,1877.0,1957.0
 14187,W. Baxter,,,,
 14195,Eugène Delâtre,French,Male,,
 14200,Aleksei Ganin,,Male,,
@@ -5303,13 +5265,11 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 19882,Hans Weigand,Austrian,Male,1954.0,
 19962,Hans-Ulrich Obrist,Swiss,Male,1968.0,
 20416,Jack Carver,,Male,,
-20503,Émile-René Ménard,French,,1862.0,1930.0
 20631,Larry Mantello,American,Male,1964.0,
 20722,Royal College of Art,British,,1837.0,
 20731,"Hope (Sufferance) Press, London",,,,
 20769,René Block,,Male,,
 20807,Roland Renrose,,Male,,
-20811,Congo (a Chimpanzee),Nationality unknown,,1954.0,1965.0
 20813,Adrian Nutbeam,,Male,,
 20904,"Profil Magazine, Vienna",,,,
 21088,"Salvatore Silkscreen Co., Inc.",,,,
@@ -5539,7 +5499,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 23308,Unknown Artists,,,,
 23313,Boris Anisfeld,,Male,,
 23314,Vladimir Chembers,,Male,,
-23315,Mstislav Dobuzhinskii,,Male,1875.0,1952.0
 23316,Aleksandr Iakovlev,,Male,,
 23317,Sergei Sudeikin,,Male,,
 23323,Russian Book Collection,,,,
@@ -5554,7 +5513,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 23353,Georgii Iakulov,,Male,,
 23355,Vasyl' Krychevs'kyi,,Male,,
 23361,Weber,Nationality unknown,,,
-23367,Viktor Bart,,Male,1887.0,1954.0
 23368,Anonymous Child,,,,
 23370,Nadezhda Burliuk,,Female,,
 23371,A. Gribatnikov,,,,
@@ -5588,8 +5546,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 23480,Leonid Golubev-Bagriaporobnii,,Male,,
 23485,Vera Mukhina,,Female,,
 23495,Ekaterina Turova,,Female,,
-23503,Kseniia Boguslavskaia,,Female,1892.0,1972.0
-23504,Vladimir Kozlinskii,,Male,1891.0,1967.0
 23505,Sergei Makletsov,,Male,,
 23506,E. Ravdel,,,,
 23507,A. Slavin,,,,
@@ -5597,7 +5553,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 23509,Vitalii Usenko,,Male,,
 23516,Volodymyr Bobryts'kyi,,Male,,
 23518,Volodymyr Diakov,,Male,,
-23519,Vasyl' Iermilov,,Male,1894.0,1968.0
 23520,Aleksandr Gladkov,,Male,,
 23521,Borys Kosariev,,Male,,
 23523,Miankal',,,,
@@ -5617,20 +5572,16 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 23604,Viacheslav Ivanov,,,,
 23608,Mykola Kalmykov,,,,
 23609,Vasyl' Picheta,,Male,,
-23613,Aleksandr Bazhbeuk-Melikov,,Male,1891.0,1966.0
 23614,Mikhail Kalashnikov,,Male,,
 23615,Il'ia Rogovin,,Female,,
 23616,T. Balaginaia,,,,
 23618,Liverii Bazankur,,,,
 23628,Hryhorii Bondarenko,,Male,,
-23630,Nikolai Chernyshev,,Male,1885.0,1973.0
-23631,Sergei Gerasimov,,Male,1885.0,1964.0
 23633,Georgii Echeistov,,Male,,
 23635,Boris Erdman,,Male,,
 23647,Howard York,,Male,,
 23649,Art Goodman,,Male,,
 23655,D. P. Gordeev,,,,
-23665,Solomon Iudovin,,Male,1892.0,1954.0
 23667,Vasilii Komardenkov,,Male,,
 23668,Mikhail Gerasimov,,Male,,
 23672,Weider,,,,
@@ -5643,7 +5594,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 23713,Marko Kyrnars'kyi,,Male,,
 23718,Ben-Zion Tsukherman,,Male,,
 23720,Grigorii Miller,,Male,,
-23723,Viktor Pal'mov,,Male,1888.0,1929.0
 23725,Illarion Pleshchinskii,,Male,,
 23736,Adol'f Strakhov,,Male,,
 23737,Unknown Author,,,,
@@ -5662,7 +5612,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 23766,Aleksandr Arnshtam,,Male,,
 23770,Aleksei Baev,,Male,,
 23772,Elena Bedumovaia,,Female,,
-23778,Iosef Chaikov,,Male,1888.0,1979.0
 23779,Iurii Cherkesov,,Male,,
 23797,N. Istselennov,,,,
 23810,"Vserossiiskii soiuz poetov, Moscow",,,,
@@ -5934,7 +5883,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 25977,Jessica Diamond,American,Female,1957.0,
 25982,Olafur Eliasson,Icelandic,Male,1967.0,
 25983,Rodney Graham,Canadian,Male,1949.0,
-25997,Myron Goldsmith,American,,1918.0,1996.0
 26078,Alex Gama,Brazilian,Male,1950.0,
 26079,Yun-Fei Ji,Chinese,Male,1963.0,
 26097,Kim Young Jin,Korean,Male,1965.0,
@@ -5985,11 +5933,9 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 26371,Kristin Lucas,American,Female,1968.0,
 26374,Edin Vélez,American,Male,1951.0,
 26375,Zhang Peili,Chinese,Male,1957.0,
-26378,"Vincent-HRD Company Ltd., Stevenage, Herts, England",British,,1928.0,1955.0
 26382,Marco Maggi,Uruguayan,Male,1957.0,
 26393,Greg Lynn,American,Male,1964.0,
 26398,United Architects,American,,2002.0,
-26399,"Foreign Office Architects (FOA), London",,,1992.0,2011.0
 26402,Imaginary Forces,American,,1996.0,
 26418,Critical Art Ensemble,American,Male,1987.0,
 26421,Louise Wilson,British,Female,1967.0,
@@ -6031,7 +5977,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 26626,Francis Ford Coppola,American,Male,1939.0,
 26632,Fabrice Hybert,French,Male,1961.0,
 26637,Glen Luchford,British,Male,1968.0,
-26653,Leo McCarey,American,,1898.0,1969.0
 26658,Martin Scorsese,American,Male,1942.0,
 26661,Agnès Varda,French,Female,1928.0,
 26678,Grace Note Windchimes,,,,
@@ -6048,7 +5993,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 26772,Warner Bros. Records,,,1958.0,
 26783,Alan Ritchie,American,Male,1938.0,
 26808,Giorgio DeCurso,Italian,,1927.0,
-26812,Archizoom Associati,Italian,,1966.0,1974.0
 26816,"Idée (Kurosaki Trading Company), Japan",,,,
 26820,"Piaggio S.p.A., Pontedera, Italy",Italian,,1884.0,
 26838,Hugo Dreyfuss,,Male,,
@@ -6322,7 +6266,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 28207,Armin Krämer,German,Male,1973.0,
 28209,Ted Muehling,American,Male,1953.0,
 28211,"Plus Minus Zero Co., Ltd.",Japanese,,2003.0,
-28215,"S. A. Weller Pottery, Zanesville, Ohio",,,1872.0,1948.0
 28216,Nomathemba Tana,South African,Female,1953.0,
 28218,Claudette Schreuders,South African,Female,1973.0,
 28219,Capsters,Dutch,,,
@@ -6787,7 +6730,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 29430,Dan Perjovschi,Romanian,Male,1961.0,
 29431,Leonid Tishkov,Russian,Male,1953.0,
 29439,Mangelos (Dimitrije Bašicevic),Croatian,Male,1921.0,
-29442,"Art & Project, Amsterdam",,,1968.0,1989.0
 29505,Eli Marmar,American,Male,1973.0,
 29506,John Hunter,American,,1965.0,
 29507,Andrew Burroughs,British,Male,1962.0,
@@ -6878,7 +6820,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 29871,Ulli Maier,German,Female,1951.0,
 29874,Paul Resika,American,Male,1928.0,
 29875,Anon,,Male,,
-29877,"Atelier Martine, Paris, France",,,1911.0,1930.0
 29918,Noriko Furunishi,Japanese,Female,1966.0,
 29945,Ellen van Loon,,,,
 29968,Jim Campbell,American,Male,1956.0,
@@ -6886,7 +6827,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 29972,Kota Ezawa,German,Male,1969.0,
 29979,IRWIN,Slovenian,,1983.0,
 29982,Stanley Brouwn,Dutch,Male,1935.0,
-29983,Gorgona artists group,Croatian,,1959.0,1966.0
 30035,Scott McFarland,Canadian,Male,1975.0,
 30060,Moroso S.p.A.,,,,
 30065,Jonathan Barnbrook,British,Male,1966.0,
@@ -7044,7 +6984,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 30941,Carsten Höller,Belgian,Male,1961.0,
 30942,Edgar Honetschläger,Austrian,Male,1963.0,
 30943,Horßkovß and Maurer,,,,
-30944,Stephan von Huene,,Male,1932.0,2000.0
 30945,Aleksandar Battista Ilic,Croatian,Male,1965.0,
 30946,Sanja Iveković,Croatian,Female,1949.0,
 30947,Cameron Jamie,American,Male,1969.0,
@@ -7267,7 +7206,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 31382,Yann Aussant,French,,,
 31384,Deimantas Narkevicius,Lithuanian,Male,1964.0,
 31385,Manfred Grübl,Austrian,Male,1967.0,
-31408,Roberto Rossellini,Italian,,1906.0,1977.0
 31420,Nancy Grossman,American,Female,1940.0,
 31430,Demakersvan,,,2004.0,
 31431,Jeroen Verhoeven,Dutch,Male,1976.0,
@@ -7302,9 +7240,7 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 31879,Frank Powell,,Male,,
 31891,Unknown Director,,,,
 31897,Pathé Frères,French,,1896.0,
-31898,Travers Vale,,Male,1865.0,1927.0
 31909,Stuart Kinder,,Male,,
-31912,Harry Lambert,,Male,1876.0,1949.0
 31960,Jorge Macchi,Argentine,Male,1963.0,
 31999,Yutaka Sone,Japanese,Male,1965.0,
 32007,Louise Campbell,Danish,Female,1970.0,
@@ -7361,7 +7297,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 32279,Ken Jacobs,American,Male,1933.0,
 32280,Jim Jarmusch,American,Male,1953.0,
 32281,Jia Zhangke,Chinese,Male,1970.0,
-32283,Paul Leni,German,,1885.0,1929.0
 32284,Nathaniel Kahn,American,Male,1963.0,
 32286,Tom Kalin,American,Male,1962.0,
 32297,Paul Kos,American,Male,1942.0,
@@ -7371,7 +7306,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 32313,Sidney Lumet,American,Male,1924.0,
 32314,David Lynch,American,Male,1946.0,
 32318,Joseph Strick,American,Male,1923.0,
-32324,Wallace McCutcheon,,Male,1858.0,1910.0
 32327,Orlando Mesquita,,,,
 32331,Linda Montano,American,Female,1942.0,
 32338,Paper Tiger Television,American,,1981.0,
@@ -7392,7 +7326,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 32378,Quentin Tarantino,American,Male,1963.0,
 32379,Paolo Taviani,Italian,Male,1931.0,
 32380,Vittorio Taviani,Italian,Male,1929.0,
-32424,Stan VanDerBeek,American,,1927.0,1984.0
 32428,Steina,Icelandic,Female,1940.0,
 32430,Woody Vasulka,American,Male,1937.0,
 32443,David Williams,,,,
@@ -7418,7 +7351,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 32641,Mathias Bengtsson,Danish,Male,1971.0,
 32653,Alex Ku,American,Male,1966.0,
 32654,Mark Wallinger,British,Male,1959.0,
-32657,Design Collaborative Montreal Ltd.,,,1965.0,1977.0
 32658,Rolf Harder & Associates Inc.,,,1978.0,
 32672,Bernard Bohn,,,,
 32684,Dara Friedman,German,Female,1968.0,
@@ -7470,7 +7402,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 32909,Sandra Gamarra,Peruvian,Female,1972.0,
 32932,Rizoto,,,,
 32933,Tekin,,,,
-32944,Nice Style The World's First Pose Band,,,1971.0,1975.0
 32945,Bruce McClain,Scottish,,1944.0,
 32947,Nelson Ricardo Savinon,American,,1971.0,
 32957,Julia Lohmann,German,Female,1977.0,
@@ -7599,7 +7530,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 33751,Will Duke,British,Male,1973.0,
 33760,Vuyile Voyiya,South African,Male,1961.0,
 33798,Senzeni Marasela,South African,Female,1977.0,
-33801,Internotredici Associati,Italian,,1970.0,1983.0
 33802,Gianni Ferrara,Italian,,1928.0,
 33803,Nilo Giocchini,Italian,,1946.0,
 33812,Charles Nkosi,South African,Male,1949.0,
@@ -7638,7 +7568,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 34153,Estudio Teddy Cruz + Forman,American,,2000.0,
 34168,Kengo Kuma & Associates,,,1990.0,
 34174,Richard Hutten,Dutch,Male,1967.0,
-34184,John Lloyd Wright,American,,1892.0,1972.0
 34202,Zhang Dali,Chinese,Male,1963.0,
 34210,"Porzellan Fabrik Gebrüder Bauscher, Weiden, Germany",,,,
 34211,"Königliche Porzellanmanufaktur, Meissen, Germany",,,,
@@ -7672,7 +7601,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 34488,Xiao Lu,Chinese,Female,1962.0,
 34494,Jamie Isenstein,American,Female,1975.0,
 34532,Isaac Julien,British,Male,1960.0,
-34536,von Foerster,,Male,1911.0,2002.0
 34537,Zeilinger,Austrian,Male,1945.0,
 34539,iGuzzini illuminazione S.p.A.,,,1958.0,
 34540,Beckermann,Austrian,Female,1952.0,
@@ -7879,7 +7807,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 35076,Gerhard Grossing,Austrian,Male,1957.0,
 35080,Raimond Chaves,Colombian,Male,1963.0,
 35082,Gilda Mantilla,Peruvian,Female,1967.0,
-35115,Karl Elsener,Swiss,,1860.0,1918.0
 35122,Heinz Gappmayr,Austrian,Male,1925.0,
 35129,"Bialetti Industrie Sp.A., Italy",,,1919.0,
 35130,Gertrud Fischbacher,Austrian,Female,1967.0,
@@ -7942,7 +7869,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 35466,Chris Cunningham,British,Male,1970.0,
 35467,Aphex Twin,British,Male,1971.0,
 35468,Claudia Von Alemann,German,Female,1943.0,
-35469,CADA (Colectivo Acciones de Arte),Chilean,,1979.0,1985.0
 35470,Daizaburo Harada,Japanese,Male,1956.0,
 35471,Haruhiko Shono,Japanese,Female,1960.0,
 35472,Dan Sandin,American,Male,1942.0,
@@ -8092,7 +8018,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 35746,Ivy Rutzky,,,,
 35796,Henry Flynt,American,Male,1940.0,
 35811,James Victore,American,Male,1962.0,
-35850,Elias Hjörleifsson,Icelandic,,1945.0,2001.0
 35858,Patrick Blackwell,,,,
 35865,ACT UP (AIDS Coalition to Unleash Power),American,,,
 35866,Matteo Bazzicalupo,Italian,Male,1966.0,
@@ -8157,16 +8082,13 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 36123,Moris (Israel Meza Moreno),Mexican,Male,1978.0,
 36155,Tim Burton,American,Male,1958.0,
 36157,Henry Selick,American,,1952.0,
-36203,Edizioni Brogi,Italian,,1860.0,1929.0
 36206,H. William Tupper,American,,,
-36218,Pach Brothers,American,,1867.0,1947.0
 36251,Peter Downsbrough,American,Male,1940.0,
 36254,Robert H. Bergman,American,Male,1944.0,
 36363,Matt Connors,American,Male,1976.0,
 36415,Beatriz González,Colombian,Female,1938.0,
 36433,Ingrid Wiener,Austrian,Female,1942.0,
 36442,Frank Lupo,American,Male,1950.0,
-36444,New York Architects,,,1984.0,1994.0
 36471,Alison Knowles,American,Female,1933.0,
 36505,Sue de Beer,American,Female,1973.0,
 36511,Shay Alkalay,Israeli,Male,1976.0,
@@ -8201,7 +8123,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 36940,Eric Andersen,Danish,Male,1940.0,
 36941,Sylvano Bussotti,Italian,Male,1931.0,
 36944,Philip Corner,American,Male,1933.0,
-36946,Hi Red Center,,,1963.0,1964.0
 36947,Toshi Ichiyanagi,Japanese,Male,1933.0,
 36950,Yoriaki Matsudaira,Japanese,Male,1931.0,
 36956,Dieter Schnebel,German,Male,1930.0,
@@ -8280,7 +8201,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 37258,Lydia Lunch,,,,
 37260,Marquis de Villeneuve-Bargemont,French,Male,,
 37262,Eduardo Costa,Argentine,Male,1940.0,
-37280,Paul Wegener,German,,1874.0,1948.0
 37299,Lorraine O'Grady,American,Female,1934.0,
 37300,Sauerbruch Hutton,,,1989.0,
 37301,Roberta Bayley,American,Female,1950.0,
@@ -8325,7 +8245,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 37558,"Nordiska Kompaniet Textilkammare, Stockholm",,,,
 37577,Ranjani Shettar,Indian,Female,1977.0,
 37586,Lacaton & Vassal Architectes,French,,1987.0,
-37596,Leo Wollner,Austrian,,1925.0,1995.0
 37601,Bo Welch,,,,
 37602,Robert Dawson,,,,
 37603,Tom Duffield,,Male,,
@@ -8453,7 +8372,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 38140,Alexandre Singh,French,Male,1980.0,
 38141,Danh Vo,Danish,Male,1975.0,
 38159,Miriam Böhm,German,Female,1972.0,
-38170,"United Democratic Front (UDF), South Africa",,,1983.0,1991.0
 38174,"Congress of South African Trade Unions (COSATU), South Africa",,,1985.0,
 38183,Yusuf Arakkal,Indian,Male,1945.0,
 38184,Giselle Baillie,South African,Female,1971.0,
@@ -8497,7 +8415,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 38258,David Thompson,,,,
 38263,Virgilio Forchiassin,Italian,,,
 38270,Philip Krumm,American,,1941.0,
-38294,"Union Paper Bag Machine Company, Philadelphia, PA",,,1869.0,1999.0
 38298,Thomas Hamilton,,,,
 38326,Davorin Savnik,Slovenian,Male,1929.0,
 38338,Susan Hefuna,German,Female,1962.0,
@@ -8507,7 +8424,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 38410,Moorhead & Moorhead,,,2000.0,
 38411,Granger Moorhead,American,Male,1969.0,
 38412,Robert Moorhead,American,Male,1972.0,
-38423,Save The Press Campaign,,,1988.0,1990.0
 38425,"Gardens Media Group, Cape Town",,,,
 38427,"Medu Art Ensemble, Gaborone, Botswana",,,,
 38456,"Brown Manufacturing Company, Decatur, GA",,,,
@@ -8584,8 +8500,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 38949,Debnath Basu,Indian,,1961.0,
 38950,Anandajit Ray,Indian,,1965.0,
 38968,Roger Deakins,British,Male,1949.0,
-38978,Ludwig Hoffenreich,Austrian,,1902.0,1975.0
-39003,Frances Macdonald,British,,1873.0,1921.0
 39007,Carl Becker,,,,
 39008,Brett Murray,,,,
 39013,Sophie Peters,,,,
@@ -8676,7 +8590,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 39633,Jacques Charlier,Belgian,Male,1939.0,
 39635,Art & Language,,,,
 39637,Gary Bigot,French,Male,1948.0,
-39639,Robert De Boeck,,Male,1944.0,1999.0
 39640,Martin Maloney,,,,
 39642,Didier Vermeiren,Belgian,male,1951.0,
 39643,Ian Wilson,,Male,1940.0,
@@ -8720,7 +8633,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 40207,Damián Ortega,Mexican,Male,1967.0,
 40218,Fito Doring,,,,
 40247,Mihajlo Arsovski,Croatian,Male,,
-40257,Albert Lamorisse,French,,1922.0,1970.0
 40294,Erwin Andra,German,,1921.0,
 40304,Bob Sheff,American,,1945.0,
 40335,Tom DeFanti,American,Male,1948.0,
@@ -8739,7 +8651,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 40411,Pieter Hugo,South African,Male,1976.0,
 40424,Helen + Hard AS,Norwegian,,1996.0,
 40428,Elliot Caplan,American,,,
-40429,Les Rita Mitsouko,French,,1954.0,2007.0
 40431,Siv Helene Stangeland,Norwegian,Female,1966.0,
 40432,Reinhard Kropf,Austrian,Male,1967.0,
 40434,Elektrisk Bureau,,,,
@@ -8803,7 +8714,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 40882,Hideto Yamazaki,,,,
 40883,Willem Breuker,,,,
 40902,David Tremlett,British,Male,1945.0,
-40904,Daan van Golden,Dutch,,1936.0,2017.0
 40905,Nicholas Pope,,,,
 40906,Toon Verhoef,Dutch,,1946.0,
 40907,Joris Geurts,Dutch,,1958.0,
@@ -8829,7 +8739,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 41153,A. Krapp,German,,,
 41154,Wilhelm Schuler,German,,1875.0,
 41158,Ottheinrich Strohmeyer,,,,
-41164,Erich Goldbaum,German,,1899.0,1969.0
 41165,Julius Kaufmann,German,,1885.0,
 41168,Herbert Anger,German,,,
 41169,Shambhavi,Indian,Female,1966.0,
@@ -8837,7 +8746,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 41182,Willy Szesztokat,,Male,,
 41191,Jens S Jensen,Swedish,Male,1946.0,
 41201,Arthur Goetz,German,Male,1885.0,
-41202,Wladislav Skotarek,Polish,,1894.0,1970.0
 41208,Frank Gardner,American,Male,1920.0,
 41209,Joan Gardner,American,Female,1933.0,
 41211,Cesare Cavanna,,,,
@@ -8873,7 +8781,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 41332,Bernardo Ortiz Campo,Colombian,Male,1972.0,
 41333,Henry Taylor,American,Male,1958.0,
 41345,Kader Attia,French,Male,1970.0,
-41368,Stefan Szmai,,,1893.0,1974.0
 41374,Lisa Pasedag,,,,
 41375,E. Anger,,,,
 41376,Eugen Hoffmann,,,,
@@ -8885,7 +8792,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 41391,Georg Arndt,German,,,
 41392,Rolf Tillmann,,,,
 41393,Alfred Zacharias,German,,1901.0,
-41399,Irving Rapper,,Male,1898.0,1999.0
 41400,Ralph Thomas Ward (Corkie),,,,
 41402,Donna Cameron,American,Female,,
 41403,Bob Rogers,American,Male,,
@@ -8913,7 +8819,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 41475,Lawrence C. Windom,American,Male,1876.0,
 41476,Lynne Sachs,American,Female,1961.0,
 41478,William Deeke,,Male,,
-41479,Jean Badovici,French,,1893.0,1956.0
 41483,Maria Gilssen,,,,
 41484,Gail Dianna Schlaifer,American,Female,,
 41489,Alan Berliner,American,Male,1956.0,
@@ -8929,7 +8834,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 41555,Miljenko Horvat,Croatian,Male,1935.0,
 41560,Jonathan Bloom,,Male,,
 41561,Michael Carapetian,British,Male,1938.0,
-41568,Serge Vandercam,Danish,,1924.0,2005.0
 41569,Jan Sanders,,,,
 41578,André Komatsu,Brazilian,Male,1978.0,
 41582,Adolf Born,Czech,Male,1930.0,
@@ -9038,12 +8942,10 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 41898,Michael Caton-Jones,Scottish,Male,1957.0,
 41901,Richard Rush,American,Male,1929.0,
 41908,Taylor Hackford,American,Male,1944.0,
-41916,Jack King,American,,1895.0,1958.0
 41919,Bob Carlson,,Male,,
 41925,Dick Rickard,,Male,,
 41926,Rob Minkoff,American,Male,1962.0,
 41941,Gene Deitch,American,Male,1924.0,
-41944,Seymour Kneitel,,Male,1908.0,1964.0
 41945,Frank Endres,,Male,,
 41946,Tom Golden,,Male,,
 41947,Graham Place,,Male,,
@@ -9118,7 +9020,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 42323,Yto Barrada,French,Female,1971.0,
 42333,Irwin Kremen,American,Male,1925.0,
 42340,Martin Boyce,Scottish,Male,1967.0,
-42341,Blanc et Demilly,French,,1924.0,1962.0
 42345,Monteiro Filho,Brazilian,Male,1925.0,
 42348,Felix Beltran,Cuban,Male,1938.0,
 42349,Paolo Labañino,Cuban,Male,1944.0,
@@ -9295,8 +9196,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 43278,Adam Broomberg and Oliver Chanarin Studio,,,,
 43288,Vagelis Tsakiridis,,,,
 43289,Walter Marchetti,,,,
-43295,Charlotte Moorman,American,,1933.0,1991.0
-43300,Pandit Pran Nath,,Male,1918.0,1996.0
 43301,Jon Hassell,,,1937.0,
 43302,Frank Trowbridge,American,,1941.0,
 43304,Larry Baldwin,,,,
@@ -9342,7 +9241,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 43529,Christian Petzold,German,Male,1960.0,
 43530,Maren Ade,German,Female,1976.0,
 43531,Nuri Bilge Ceylan,Turkish,Male,1959.0,
-43532,Manoel de Oliveira,Portuguese,,1908.0,2015.0
 43533,Hong Sang-soo,Korean,Male,1961.0,
 43534,Miguel Gomes,Portuguese,Male,1972.0,
 43535,Pedro Costa,Portuguese,Male,1959.0,
@@ -9362,7 +9260,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 43552,Srdan Dragojevic,Serbian,Male,1963.0,
 43554,Eduardo Nunes,Brazilian,Male,1969.0,
 43556,Darezhan Omirbayev,Kazakhstani,Male,1958.0,
-43559,Thornton Dial,,Male,1928.0,2016.0
 43561,Bujar Alimani,Albanian,Male,1969.0,
 43563,Gustavo Pizzi,Brazilian,Male,1977.0,
 43566,Kivu Ruhorahoza,Rwandan,Male,1982.0,
@@ -9589,7 +9486,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 44749,Francisco Méndez Labbé,Chilean,Male,1922.0,
 44754,Istvan Anhalt,,,,
 44755,Reginald Daniel,,,,
-44757,Max Neuhaus,American,,1939.0,2009.0
 44764,Simone Morris,,,,
 44766,A. Michael Noll,American,Male,1939.0,
 44767,Mario Gandelsonas,American,Male,1938.0,
@@ -9626,7 +9522,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 45124,John Hilliard,British,Male,1945.0,
 45152,Jiri Kovanda,Czech,Male,1953.0,
 45185,Juan Baixas,Chilean,Male,1942.0,
-45203,Heidi Bucher,,Female,1926.0,1993.0
 45221,Xian Yeagan,,,,
 45229,Jacki Apple,,,,
 45238,Lawrence Abu Hamdan,,Male,1985.0,
@@ -9638,7 +9533,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 45391,Michael Williams,American,Male,1978.0,
 45401,Michaela Eichwald,German,Female,1967.0,
 45409,Richard Aldrich,American,Male,1975.0,
-45416,Jorge Rigamonti,Venezuelan,,1940.0,2008.0
 45442,Ann Demeulemeester,,,,
 45444,Charlie Foos,,,,
 45450,Shannon Plumb,American,Female,1970.0,
@@ -9664,7 +9558,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 45591,Mauricio Pezo,Chilean,Male,1973.0,
 45592,Sofía von Ellrichshausen,Argentine,Female,1976.0,
 45626,Lutz Bacher,American,Female,1952.0,
-45664,Ulises Carrión,,Male,1941.0,1989.0
 45672,U-J3RK5,,,,
 45673,Kitty Byrne,,,,
 45674,Colin Griffiths,,,,
@@ -9681,7 +9574,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 45781,Derek Barnett,,,,
 45790,Reginald Daniels,,Male,,
 45792,John McDowell,,Male,,
-45798,Gaspar Gasparian,Brazilian,,1899.0,1966.0
 45801,Ed Clark,American,Male,1926.0,
 45810,Matías Duville,Argentine,Male,1974.0,
 45880,Ido Mizrahy,American,Male,1981.0,
@@ -9713,7 +9605,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 46060,Paul Thomas Anderson,American,Male,1970.0,
 46065,Denis Villeneuve,Canadian,Male,1967.0,
 46069,Lisa Crafts,American,Female,1953.0,
-46078,Henry Bataille,,Male,1872.0,1922.0
 46089,Judith Steedman,,,,
 46095,Mathias Augustyniak,French,Male,1967.0,
 46096,Michael Amzalag,French,Male,1968.0,
@@ -9749,7 +9640,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 46313,Technology Will Save Us,,,2012.0,
 46314,"QUAD Electroacoustics, Huntingdon, England",,,,
 46315,Keiji Uematsu,Japanese,Male,1947.0,
-46318,Toshiro Mayuzumi,,,1929.0,1997.0
 46325,James Richards,British,Male,1983.0,
 46326,Jerome Kuhl,,Male,,
 46345,Kenny Scharf,American,,1958.0,
@@ -9921,7 +9811,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 46997,Andrea Trimarchi,Italian,Female,1980.0,
 46998,Simone Farresin,Italian,Female,1983.0,
 47008,LaToya Ruby Frazier,American,Female,1982.0,
-47019,Joy Division,British,,1976.0,1980.0
 47022,Hélène Binet,Swiss,Female,1959.0,
 47033,Reese Williams,,,,
 47039,Aktuální umĕni,,,1964.0,
@@ -9940,7 +9829,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 47091,Shure Incorporated,,,1925.0,
 47094,Lucas Blalock,American,Male,1978.0,
 47097,Steffani Jemison,American,Female,1981.0,
-47098,Alma Woodsey Thomas,,Female,1891.0,1978.0
 47100,Bouchra Khalili,Moroccan,Female,1975.0,
 47102,The Propeller Group,American,,2006.0,
 47104,Wu Tsang,American,Female,1982.0,
@@ -9973,7 +9861,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 47209,Ilit Azoulay,Israeli,Female,1972.0,
 47211,Lele Saveri,Italian,Male,1980.0,
 47214,Lieko Shiga,Japanese,Female,1980.0,
-47218,Grey Organisation,British,,1983.0,1991.0
 47229,Rocco Redondo,Spanish,Male,1950.0,
 47230,Peter Zumthor,Swiss,Male,1943.0,
 47235,Ecovative,,,,
@@ -10161,8 +10048,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 47824,Naoya Hatakeyama,Japanese,Male,1958.0,
 47827,Blank,,,,
 47838,Selten Gehörte Musik,,,,
-47839,Tennessee Williams,,Male,1911.0,1983.0
-47841,John Wallowitch,,Male,1926.0,2007.0
 47843,Paul Anka,,,1941.0,
 47844,Billy Squier,,,1950.0,
 47845,Diana Ross,,Female,,
@@ -10218,7 +10103,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 48044,Anna Boghiguian,Egyptian,Female,1946.0,
 48048,Michael Oblowitz,South African,Male,1943.0,
 48050,Martine Bedin,French,Female,1957.0,
-48051,"Memphis, Milan",,,1981.0,1985.0
 48052,Bruce La Bruce,Canadian,Male,1964.0,
 48055,Sally Potter,British,Female,1949.0,
 48056,James Ponsoldt,American,Male,1978.0,
@@ -10260,13 +10144,11 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 48122,Tania Bruguera,,Female,1968.0,
 48124,Robert Wittmann,,Male,,
 48128,JODI,American,,1995.0,
-48177,Paolo Garretto,Italian,,1903.0,1989.0
 48182,Joan Heemskerk,Dutch,Female,1968.0,
 48183,Dirk Paesmans,Belgian,Male,1965.0,
 48188,Phu Nam,Vietnamese,Male,1974.0,
 48189,Matt Lucero,American,Male,1976.0,
 48198,Philibert-Paul Charbonnier,French,,,
-48201,Paul Gredinger,Swiss,,1927.0,2013.0
 48208,Robert Defrin,American,,,
 48209,Slobodan Tadić,,,,
 48222,"Studio SLS, Zagreb, Croatia",,,,
@@ -10306,12 +10188,10 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 48360,Jennifer A. Lewis,American,Female,,
 48361,Michael Bell,American,Male,,
 48387,Ina Barfuß,,,,
-48388,Thomas Wachweger,German,,1943.0,2015.0
 48389,Wilhelm Schürmann,German,,1946.0,
 48390,Jiri Georg Dokoupil,Czech,,1954.0,
 48391,Ilona Weber,,,,
 48392,Wolfgang Weber,,,,
-48421,Luis Claramunt,Catalan,,1951.0,2000.0
 48422,Sven-Åke Johansson,Swedish,,1943.0,
 48471,Cameron Rowland,American,,1988.0,
 48488,John Ahearn,American,,1951.0,
@@ -10331,7 +10211,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 48540,Lori Seid,,,,
 48542,Janice Yudell,,Female,,
 48543,John Zax,,Male,,
-48547,Nelson Sullivan,American,,1948.0,1989.0
 48556,Park McArthur,American,,1984.0,
 48559,Hisao Suzuki,,Male,,
 48578,François Blanciak,French,Male,1976.0,
@@ -10457,7 +10336,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 49169,Jiří Pelcl,Czech,Male,1950.0,
 49176,George Stone,,Male,,
 49177,Matt Frewer,Canadian,Male,,
-49180,Studio Boggeri,Italian,,1933.0,1981.0
 49193,Helen Mayer Harrison,American,Female,1929.0,
 49194,Newton Harrison,American,Male,1932.0,
 49198,Iman Issa,Egyptian,Female,1979.0,
@@ -10472,7 +10350,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 49245,Johnston Marklee,,,1998.0,
 49255,John Svezia,,Male,,
 49256,Ray Wilkes,,Male,,
-49257,Thinking Machines Corporation,,,1983.0,1994.0
 49259,Donald Wall,,Male,,
 49260,W. Borek,,Male,,
 49261,Robert Massin,,Male,,
@@ -10489,7 +10366,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 49356,Louise Lemoine,French,Female,1981.0,
 49390,Harry R. Barry,,Male,,
 49417,Luigi Scrivo,Italian,Male,,
-49434,J. Stuart Blackton,British,,1875.0,1941.0
 49437,Marcelo Suzuki,Brazilian,Male,,
 49453,Rael San Fratello,American,,2002.0,
 49464,Manuel Herz Architects,Swiss,,1999.0,
@@ -10510,12 +10386,10 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 49493,Ermanno Olmi,Italian,Male,1931.0,
 49494,Emanuele Crialese,Italian,Male,1965.0,
 49495,Joshua White,American,Male,1942.0,
-49496,Joshua Light Show,American,,1967.0,1970.0
 49504,Louise Despont,American,Female,1983.0,
 49535,Byung Hoon Choi,Korean,Male,1952.0,
 49541,Dargoljub Pavlov,Serbian,,1940.0,
 49542,Bora Vitorac,Serbian,,1940.0,
-49543,Arnold Hardy,American,,1922.0,2007.0
 49544,"Lobmeyr, Kamenický Šenov, Czechoslovakia",,,,
 49558,Ida O'Keeffe,British,Female,,
 49568,GOLDIN + SENNEBY,Swedish,,2004.0,
@@ -10559,7 +10433,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 49733,Sharon Johnston,American,Female,1965.0,
 49734,Mark Lee,American,Male,1967.0,
 49799,Mike Topp,,male,,
-49816,Dale Henry,American,,1931.0,2011.0
 49819,Christian Hasucha,German,,1955.0,
 49820,Milan Kunc,Czech,,1944.0,
 49821,Hervé Di Rosa,French,,1959.0,
@@ -10572,14 +10445,8 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 49916,Cameron,,,,
 49917,Marion Grogan,,Female,,
 49919,David Meltzer,,Male,,
-49956,Anders Grafstrom,Swedish,,1956.0,1980.0
 49958,Romain Urhausen,Luxembourgish,Male,1930.0,
-49972,Elisabeth Hase,German,,1905.0,1991.0
-49998,Omar Carreño,Venezuelan,,1927.0,2013.0
-50001,Carlos González Bogen,Venezuelan,,1920.0,1992.0
-50005,Rubén Núñez,Venezuelan,,1930.0,2012.0
 50011,Antonieta Sosa,Venezuelan,,1940.0,
-50020,Nat Fein,American,,1914.0,2000.0
 50024,Hugo Maza,Chilean,,,
 50069,Linens by Dewan,,,,
 50083,Richard Learoyd,British,,1966.0,
@@ -10606,7 +10473,6 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 67115,Jon Buller,American,,1943.0,
 67116,Antonio DiSpigna,Italian,,1943.0,
 67122,Giorgia Lupi,Italian,Female,1981.0,
-67127,John Sex,American,,1956.0,1990.0
 67192,Bob & Bob,,,,
 67195,Steve Lacy,,,,
 67222,"Bossi, Mortara",Italian,,1827.0,
@@ -10642,14 +10508,11 @@ Artist ID,Name,Nationality,Gender,Birth Year,Death Year
 67332,Glenn Andreiev,American,,1961.0,
 67333,Manfred Blank,German,,1949.0,
 67334,Kevin Asch,American,,1975.0,
-67336,Cal Dalton,American,,1908.0,1974.0
-67337,Cal Howard,American,,1911.0,1993.0
 67340,M. Henry Jones,American,,1957.0,
 67342,Mannie Davis,,,,
 67345,George Haas,American,,1953.0,
 67346,Jimmy Murray,,,,
 67349,Julius Klein,American,,1951.0,
-67350,Howard Guttenplan,American,,1934.0,2015.0
 67352,Neelon Crawford,American,,1946.0,
 67353,Michael Mideke,,,,
 67379,N. Dash,American,Female,1980.0,
