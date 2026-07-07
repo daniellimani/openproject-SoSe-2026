@@ -290,7 +290,7 @@ This project follows the FAIR principles.
 ### Findable
 
 - Public GitHub repository
-- Public dataset
+- Public dataset License - CC0: Public Domain https://creativecommons.org/publicdomain/zero/1.0/ 
 - Wikidata identifiers
 
 ### Accessible
