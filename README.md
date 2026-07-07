@@ -254,7 +254,7 @@ Overall successful match rate:
 
 **49.3%**
 
-<img width="784" height="484" alt="image" src="https://github.com/user-attachments/assets/e1c9c81c-2e39-495d-b52b-7a22e02c0fbe" />
+<img width="587" height="579" alt="image" src="https://github.com/user-attachments/assets/03714db5-18a4-4bf9-a506-b31978cb72a2" />
 
 
 ---
