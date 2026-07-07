@@ -214,9 +214,6 @@ Completeness is not the final objective.
 
 The real objective is obtaining **more reliable analyses**.
 
-<img width="784" height="484" alt="image" src="https://github.com/user-attachments/assets/999bea66-acac-475e-b52b-e336f626f63e" />
-
-
 Consider the following research question:
 
 > **What is the gender distribution of artists represented in the MoMA collection?**
@@ -244,19 +241,19 @@ This illustrates the practical value of metadata enrichment.
 
 # Key Findings
 
-<img width="683" height="384" alt="image" src="https://github.com/user-attachments/assets/025d0159-5487-4d29-9eff-30019a647f97" />
-
-
 ### Interpretation
 
 Metadata enrichment significantly reduced missing gender values.
 
-Consequently:
+As a conclusion:
 
 - demographic analyses became more reliable;
 - the proportion of unknown values decreased;
 - visualisations better reflected the actual museum collection;
 - conclusions drawn from the dataset became more representative of reality.
+
+<img width="683" height="384" alt="image" src="https://github.com/user-attachments/assets/025d0159-5487-4d29-9eff-30019a647f97" />
+
 
 ---
 
