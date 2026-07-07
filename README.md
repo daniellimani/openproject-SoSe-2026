@@ -1,91 +1,89 @@
-# Museum of Modern Art (MoMA) Artist Metadata Enrichment using Wikidata
+# Museum of Modern Art (MoMA) Artist Metadata Enrichment and Analysis using Wikidata
 
 ## Project Overview
 
-This project investigates the completeness of metadata describing artists in the Museum of Modern Art (MoMA) collection and demonstrates how open knowledge graphs can enrich missing information.
+This project investigates the completeness and quality of metadata describing artists in the Museum of Modern Art (MoMA) collection.
 
-Using Python, Jupyter Notebook, GitHub, and the Wikidata SPARQL endpoint, the project identifies artists with incomplete metadata, performs entity matching, and enriches missing Birth Year and Death Year values where reliable matches are found.
+The original dataset contains demographic information about artists, including:
 
-The project follows the principles of **Open Scholarship** by ensuring transparency, reproducibility, and version control throughout the research workflow.
+- Artist Name
+- Nationality
+- Gender
+- Birth Year
+- Death Year
 
----
+However, many records contain missing metadata, limiting the quality of statistical analysis and reducing the usefulness of the dataset for Digital Humanities research.
 
-# Repository Structure
+To address this problem, missing metadata were enriched using the **Wikidata Knowledge Graph** through automated entity matching implemented in Python.
 
-```text
-openproject-SoSe-2026/
-
-│
-├── data/
-│   ├── artists.csv
-│   ├── artists_statistics.csv
-│   ├── artists_all_fields_complete.csv
-│   ├── artists_missing_dates.csv
-│   ├── artists_prepared_for_wikidata.csv
-│   └── data_artists_enriched.csv
-│
-├── notebook/
-│   ├── create_update_notebook.ipynb
-│   ├── Data_enrichment.ipynb
-│   └── Results_Analysis.ipynb
-│
-├── README.md
-└── .gitignore
-```
+The project demonstrates a complete Digital Humanities workflow including data preparation, metadata enrichment, evaluation, visualization, documentation, and publication following FAIR and Open Science principles.
 
 ---
 
-# Project Description
+# Motivation
 
-The objective of this project is to prepare, clean, analyse, and enrich metadata describing artists included in the Museum of Modern Art (MoMA) collection.
+Cultural heritage datasets are only as useful as the quality of their metadata.
 
-The workflow begins with data preparation and descriptive statistics, followed by metadata enrichment using Wikidata and concludes with quantitative analysis measuring the effectiveness of the enrichment process.
+Missing values affect the reliability of historical analysis because researchers cannot accurately answer questions such as:
 
----
+- How many artists were born during a particular period?
+- How has artistic diversity changed over time?
+- What is the gender distribution of artists represented in museums?
+- Which nationalities are underrepresented?
 
-# Research Purpose
+Without complete metadata, statistical analyses become incomplete and may lead to misleading conclusions.
 
-The purpose of this research is to evaluate the completeness of the Museum of Modern Art artist metadata and investigate whether missing Birth Year and Death Year information can be recovered through semantic enrichment using Wikidata.
+Metadata enrichment improves the completeness of the dataset by recovering missing information from trusted external knowledge bases such as Wikidata.
 
-The project demonstrates a complete Digital Humanities workflow including:
+Rather than changing existing information, the enrichment process only fills missing values while preserving the original dataset.
 
-- Data Cleaning
-- Metadata Preparation
-- Entity Matching
-- Semantic Enrichment
-- Data Analysis
-- Visualisation
-- Open Research Documentation
+This produces a richer dataset that supports more accurate Digital Humanities research and improves semantic interoperability.
 
 ---
 
-# Data Origin
+# Research Questions
 
-**Dataset**
+This project addresses the following research questions:
 
-Museum of Modern Art (MoMA) Artist Dataset
+1. How complete is the original MoMA artist metadata?
+
+2. Which artists require metadata enrichment?
+
+3. Can Wikidata successfully recover missing metadata?
+
+4. How does metadata enrichment improve dataset completeness?
+
+5. How does metadata enrichment support more reliable Digital Humanities research?
+
+---
+
+# Dataset
 
 Source:
 
 https://www.kaggle.com/datasets/momanyc/museum-collection
 
-Date accessed:
+Dataset:
 
-11 May 2026
+artists.csv
 
 License:
 
-Creative Commons CC0 1.0 Public Domain
+Creative Commons CC0 1.0 Universal
 
 https://creativecommons.org/publicdomain/zero/1.0/
+
+Date accessed:
+
+11 May 2026
 
 ---
 
 # Dataset Description
 
-The original dataset contains metadata describing artists represented in the Museum of Modern Art collection.
+The dataset contains metadata describing artists represented in the Museum of Modern Art collection.
 
-Variables include:
+Main variables include:
 
 - Artist ID
 - Name
@@ -100,249 +98,339 @@ Original dataset size:
 
 ---
 
-# Research Questions
+# Project Workflow
 
-This project investigates the following research questions:
+The project follows a complete Digital Humanities data lifecycle.
 
-1. How complete is the metadata describing artists in the Museum of Modern Art collection?
-
-2. Which artists contain incomplete demographic information?
-
-3. Can missing Birth Year and Death Year values be enriched using Wikidata?
-
-4. How effective is entity matching when enriching cultural heritage metadata?
-
-5. What proportion of artists can be successfully linked to Wikidata?
-
----
-
-# Workflow
-
-## 1. Data Access
-
-The original dataset (`artists.csv`) was imported into Python using the **pandas** library.
-
-The dataset structure, variables and missing values were inspected before any preprocessing.
-
----
-
-## 2. Selection / Sampling
-
-The complete dataset was analysed without sampling.
-
-Several subsets were automatically generated during preprocessing:
-
-- artists_statistics.csv
-- artists_all_fields_complete.csv
-- artists_missing_dates.csv
-- artists_prepared_for_wikidata.csv
+```
+Original MoMA Dataset
+        │
+        ▼
+Data Cleaning
+        │
+        ▼
+Missing Value Detection
+        │
+        ▼
+Dataset Preparation
+        │
+        ▼
+Entity Matching with Wikidata
+        │
+        ▼
+Metadata Enrichment
+        │
+        ▼
+Impact Analysis
+        │
+        ▼
+Visualisation
+        │
+        ▼
+Documentation & GitHub Publication
+```
 
 ---
 
-## 3. Cleaning / Preprocessing
+# Methodology
 
-The preprocessing stage included:
+## 1. Data Cleaning
 
-- Inspecting the dataset
-- Checking missing values
-- Identifying incomplete metadata
-- Separating complete records
-- Exporting reproducible datasets
+The original dataset was inspected using Python and Pandas.
 
-No original records were removed from the dataset.
+Cleaning included:
+
+- detecting missing values
+- checking dataset completeness
+- descriptive statistics
+- exporting clean subsets
 
 ---
 
-## 4. Enrichment / Linking
+## 2. Dataset Preparation
 
-Metadata enrichment was performed using the **Wikidata SPARQL Endpoint**.
+Artists missing one or more metadata fields were extracted into a new dataset.
 
-The notebook queried Wikidata for every artist contained in:
+Prepared dataset:
 
-`artists_prepared_for_wikidata.csv`
+**10,525 artists**
 
-The enrichment process compared available metadata using:
+These records became candidates for Wikidata enrichment.
+
+---
+
+## 3. Entity Matching
+
+Each artist name was queried against the Wikidata API.
+
+Potential matches were evaluated using:
 
 - Name
+- Birth Year
+- Death Year
 - Nationality
 - Gender
+- Occupation
 
-When a reliable match was found, the following metadata were added:
-
-- Wikidata ID
-- Birth Year (if missing)
-- Death Year (if missing)
-- Match Status
-- Source
-
-The workflow classified every artist as:
+Each record received one of four labels:
 
 - matched
 - uncertain
 - not_found
+- error
+
+This process minimizes incorrect entity linking while maintaining high metadata quality.
 
 ---
 
-## 5. Analysis
+## 4. Metadata Enrichment
 
-The enriched dataset was analysed to evaluate:
+Only missing metadata were filled.
 
-- Metadata completeness
-- Number of successful matches
-- Birth Years recovered
-- Death Years recovered
-- Match success rate
-- Remaining missing metadata
+Existing information was never overwritten.
 
----
+Recovered metadata include:
 
-## 6. Visualisation
-
-Visualisations include:
-
-- Entity matching results
-- Metadata completeness before and after enrichment
-- Birth Year recovery
-- Death Year recovery
-- Gender distribution
-- Nationality distribution
-- Birth Year timeline
+- Wikidata ID
+- Birth Year
+- Death Year
 
 ---
 
-## 7. Archiving & Sharing
+## 5. Evaluation
 
-The complete workflow was documented using:
+The enriched dataset was compared against the original dataset to evaluate the overall impact of metadata enrichment.
 
-- Jupyter Notebook
-- Git
-- GitHub
+Evaluation focused on:
 
-Generated datasets include:
-
-- artists_statistics.csv
-- artists_all_fields_complete.csv
-- artists_missing_dates.csv
-- artists_prepared_for_wikidata.csv
-- data_artists_enriched.csv
-
-All notebooks and datasets are version-controlled and publicly documented.
+- successful entity matches
+- recovered metadata
+- completeness improvement
+- dataset quality
 
 ---
 
-# Tools & Technologies
+# Tools and Technologies
 
 | Tool | Purpose |
-|------|---------|
-| Anaconda | Development environment |
-| Jupyter Notebook | Writing, testing and documenting Python code |
-| Python | Programming language |
-| Pandas | Data cleaning and analysis |
-| Requests | HTTP requests to the Wikidata SPARQL endpoint |
-| SPARQL | Query language for Wikidata |
-| Wikidata | Metadata enrichment source |
+|------|----------|
+| Python | Data cleaning, enrichment and analysis |
+| Pandas | Data manipulation |
+| Requests | Wikidata API communication |
+| Matplotlib | Data visualisation |
+| Jupyter Notebook | Reproducible research |
 | Git | Version control |
-| GitHub | Open repository and reproducibility |
-| ChatGPT (AI-assisted / Vibe Coding) | Assisted code generation, debugging, documentation and workflow design |
-
----
-
-# Open Scholarship
-
-This project follows Open Scholarship principles through:
-
-- Open data (MoMA)
-- Open knowledge graph (Wikidata)
-- Open-source software (Python)
-- Version control (GitHub)
-- Transparent documentation
-- Reproducible notebooks
-
----
-
-# FAIR Principles
-
-The project follows FAIR principles.
-
-### Findable
-
-The project is published on GitHub with a documented repository structure.
-
-### Accessible
-
-All datasets, notebooks and documentation are openly available.
-
-### Interoperable
-
-The dataset is linked with Wikidata using unique Wikidata identifiers.
-
-### Reusable
-
-The complete workflow is documented and reproducible using Jupyter Notebook.
+| GitHub | Repository hosting |
+| Wikidata API | Metadata enrichment |
+| Anaconda | Python environment |
+| ChatGPT (Vibe Coding) | Assisted development, debugging and documentation |
 
 ---
 
 # Results
 
-The workflow produced the following outputs:
+## Original dataset
 
-- Descriptive statistics
-- Artists with complete metadata
-- Artists requiring enrichment
-- Enriched artist metadata linked to Wikidata
-- Match status for every processed artist
-- Reproducible notebooks
-- GitHub repository
-
-The final enriched dataset contains:
-
-- Wikidata identifiers
-- Birth Years recovered
-- Death Years recovered
-- Match Status
-- Source information
+**15,091 artists**
 
 ---
 
-# Key Findings
+## Artists requiring enrichment
 
-The project demonstrates that open knowledge graphs such as Wikidata can improve metadata quality for cultural heritage datasets.
+**10,525 artists**
 
-The workflow successfully:
+---
 
-- Identified incomplete metadata
-- Prepared the dataset for enrichment
-- Retrieved missing metadata from Wikidata
-- Applied entity matching
-- Recorded match confidence
-- Produced a reproducible Open Scholarship workflow
+## Entity Matching Results
 
-Remaining uncertain and not-found matches demonstrate the limitations of automatic entity matching and highlight opportunities for future improvements using additional authority files or more advanced disambiguation techniques.
+| Status | Artists |
+|---------|---------:|
+| Matched | 5,186 |
+| Uncertain | 1,944 |
+| Not Found | 3,375 |
+| Error | 20 |
+
+Overall successful match rate:
+
+**49.3%**
+
+---
+
+## Metadata Recovery
+
+The enrichment workflow successfully recovered thousands of missing metadata values including:
+
+- Birth Years
+- Death Years
+- Wikidata Identifiers
+
+This substantially improves dataset completeness while preserving the original metadata.
+
+---
+
+# Why Metadata Enrichment Matters
+
+Consider the following research question:
+
+> **How many artists born between 1900 and 1950 are represented in the MoMA collection?**
+
+### Before enrichment
+
+Many artists had missing birth years.
+
+These artists could not be included in chronological analyses.
+
+Result:
+
+❌ Incomplete statistics
+
+---
+
+### After enrichment
+
+Thousands of missing birth years were recovered using Wikidata.
+
+More artists can now be placed on historical timelines.
+
+Result:
+
+✅ More complete and reliable analyses.
+
+Rather than claiming absolute truth, the enriched dataset provides a **more complete representation** of the available knowledge.
+
+---
+
+# Key Outcomes
+
+The project demonstrates that metadata enrichment significantly improves cultural heritage datasets.
+
+Main achievements include:
+
+- Automated entity matching using Wikidata
+- Recovery of missing metadata
+- Improved dataset completeness
+- More reliable demographic analysis
+- Better support for Digital Humanities research
+- Fully reproducible workflow
+- Public GitHub repository with documentation
+
+---
+
+# FAIR Principles
+
+The project follows the FAIR principles.
+
+### Findable
+
+- GitHub repository
+- Structured documentation
+
+### Accessible
+
+- Open dataset
+- Open-source code
+
+### Interoperable
+
+- Wikidata identifiers enable semantic interoperability
+
+### Reusable
+
+- Documented workflow
+- Version-controlled repository
+- Reproducible notebooks
+
+---
+
+# Open Science
+
+The project promotes Open Science by providing:
+
+- Open-source code
+- Public documentation
+- Reproducible notebooks
+- Public datasets
+- Version control using Git
+- Transparent methodology
+
+---
+
+# Repository Structure
+
+```
+project/
+
+│
+
+├── data/
+
+│   ├── artists.csv
+
+│   ├── artists_statistics.csv
+
+│   ├── artists_all_fields_complete.csv
+
+│   ├── artists_missing_dates.csv
+
+│   ├── artists_prepared_for_wikidata.csv
+
+│   ├── data_artists_enriched.csv
+
+│   ├── enrichment_summary.csv
+
+│   └── project_summary.csv
+
+│
+
+├── notebook/
+
+│   ├── create_update_notebook.ipynb
+
+│   ├── Data_enrichment.ipynb
+
+│   └── Results_analysis.ipynb
+
+│
+
+├── README.md
+
+└── .gitignore
+```
 
 ---
 
 # Future Work
 
-Possible improvements include:
+Possible future improvements include:
 
-- Improving entity disambiguation
-- Using additional authority files (e.g. VIAF, Getty ULAN)
-- Expanding enrichment to additional metadata fields
-- Improving matching confidence
-- Automating validation of enriched metadata
+- SPARQL-based semantic queries
+- Additional metadata fields
+- Occupation enrichment
+- Place of birth enrichment
+- Museum collection comparison
+- Improved entity disambiguation using machine learning
+- Integration with Linked Open Data resources
 
 ---
 
 # References
 
-- Museum of Modern Art Collection Dataset
-  https://www.kaggle.com/datasets/momanyc/museum-collection
+Museum of Modern Art Collection
 
-- Wikidata
-  https://www.wikidata.org/
+https://www.moma.org/
 
-- Wikidata SPARQL Endpoint
-  https://query.wikidata.org/
+MoMA Dataset
 
-- Python
-  https://www.python.org/
+https://www.kaggle.com/datasets/momanyc/museum-collection
+
+Wikidata
+
+https://www.wikidata.org/
+
+Wikidata API
+
+https://www.wikidata.org/w/api.php
+
+FAIR Principles
+
+https://www.go-fair.org/fair-principles/
