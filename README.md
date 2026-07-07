@@ -178,6 +178,7 @@ Each artist was assigned one of four matching outcomes.
 | Not Found | No suitable Wikidata entity available |
 | Error | API or processing error |
 
+
 ---
 
 ## 4. Dataset Update
@@ -192,7 +193,8 @@ Existing values were preserved, ensuring that the original dataset remained unch
 
 ## Entity Matching Performance
 
-![Entity Matching Results](images/entity_matching_results.png)
+<img width="784" height="484" alt="image" src="https://github.com/user-attachments/assets/c95fd964-0a58-46c1-84ac-1af038929081" />
+
 
 ### Interpretation
 
@@ -211,6 +213,9 @@ The results demonstrate that Linked Open Data can substantially improve metadata
 Completeness is not the final objective.
 
 The real objective is obtaining **more reliable analyses**.
+
+<img width="784" height="484" alt="image" src="https://github.com/user-attachments/assets/999bea66-acac-475e-b52b-e336f626f63e" />
+
 
 Consider the following research question:
 
@@ -232,11 +237,15 @@ Instead of analysing missing information, we are analysing the artists themselve
 
 This illustrates the practical value of metadata enrichment.
 
+<img width="784" height="484" alt="image" src="https://github.com/user-attachments/assets/025328d4-774d-4f5e-8ca7-f3416868a524" />
+
+
 ---
 
 # Key Findings
 
-![Gender Results](images/gender_results.png)
+<img width="683" height="384" alt="image" src="https://github.com/user-attachments/assets/025d0159-5487-4d29-9eff-30019a647f97" />
+
 
 ### Interpretation
 
