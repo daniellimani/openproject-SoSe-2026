@@ -378,6 +378,10 @@ Future improvements may include:
 - Artistic movement enrichment
 - Integration with additional Linked Open Data sources
 - Machine Learning for entity disambiguation
+- Further Research Possibilities
+- Compare the MoMA dataset with other museum collections
+- Improve matching by incorporating additional metadata fields
+
 
 ---
 
