@@ -288,9 +288,8 @@ These artists could not be included in chronological analyses.
 
 Result:
 
-<<<<<<< HEAD
-❌ Incomplete statistics
-=======
+Incomplete statistics
+
 Incomplete statistics
 >>>>>>> 9e7a2169cd5a73b2174d3a26658331cb77089869
 
@@ -304,12 +303,11 @@ More artists can now be placed on historical timelines.
 
 Result:
 
-<<<<<<< HEAD
-✅ More complete and reliable analyses.
+More complete and reliable analyses.
 
 Rather than claiming absolute truth, the enriched dataset provides a **more complete representation** of the available knowledge.
 
-=======
+
 More complete and reliable analyses.
 
 Rather than claiming absolute truth, the enriched dataset provides a **more complete representation** of the available knowledge.
