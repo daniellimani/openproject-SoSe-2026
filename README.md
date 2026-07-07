@@ -181,6 +181,9 @@ Each record received one of four labels:
 
 This process minimizes incorrect entity linking while maintaining high metadata quality.
 
+<img width="784" height="484" alt="image" src="https://github.com/user-attachments/assets/9b59da30-20d0-41c4-9a64-1d22824b1d2f" />
+
+
 ---
 
 ## 4. Metadata Enrichment
@@ -195,6 +198,9 @@ Recovered metadata include:
 - Birth Year
 - Death Year
 
+<img width="784" height="484" alt="image" src="https://github.com/user-attachments/assets/e1c9c81c-2e39-495d-b52b-7a22e02c0fbe" />
+
+
 ---
 
 ## 5. Evaluation
@@ -207,6 +213,9 @@ Evaluation focused on:
 - recovered metadata
 - completeness improvement
 - dataset quality
+
+<img width="683" height="384" alt="image" src="https://github.com/user-attachments/assets/5a39c86b-51a1-439b-97d0-0079ead6ea01" />
+
 
 ---
 
