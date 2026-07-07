@@ -2,80 +2,88 @@
 
 ## Project Overview
 
-This project investigates the completeness and quality of metadata describing artists in the Museum of Modern Art (MoMA) collection.
+This project enriches the **Museum of Modern Art (MoMA) Artist Dataset** using **Wikidata** to improve the completeness and reliability of artist metadata.
 
-The original dataset contains demographic information about artists, including:
+Rather than simply filling missing values, the project demonstrates how **Linked Open Data (LOD)** can enhance cultural heritage datasets while preserving their original integrity.
 
-- Artist Name
-- Nationality
-- Gender
+The enrichment process automatically retrieves and validates missing information such as:
+
 - Birth Year
 - Death Year
+- Nationality
+- Gender
+- Wikidata Identifier (Q-ID)
 
-However, many records contain missing metadata, limiting the quality of statistical analysis and reducing the usefulness of the dataset for Digital Humanities research.
+Only missing metadata is updated, ensuring that existing records remain unchanged.
 
-To address this problem, missing metadata were enriched using the **Wikidata Knowledge Graph** through automated entity matching implemented in Python.
+The resulting enriched dataset enables more accurate demographic and historical analyses of the MoMA artist collection.
 
-The project demonstrates a complete Digital Humanities workflow including data preparation, metadata enrichment, evaluation, visualization, documentation, and publication following FAIR and Open Science principles.
+---
+
+# Project Highlights
+
+| Metric | Value |
+|---------|------:|
+| Original Artists | **15,091** |
+| Artists Prepared for Enrichment | **10,525** |
+| Successfully Matched | **5,186** |
+| Not Found | **3,375** |
+| Uncertain Matches | **1,944** |
+| API Errors | **20** |
 
 ---
 
 # Motivation
 
-Cultural heritage datasets are only as useful as the quality of their metadata.
+Museum collections are increasingly used in research within **Digital Humanities**, **Data Science**, **Art History**, and **Cultural Heritage**. However, many publicly available datasets contain incomplete or missing metadata.
 
-Missing values affect the reliability of historical analysis because researchers cannot accurately answer questions such as:
+Missing information makes it difficult to answer important research questions such as:
 
-- How many artists were born during a particular period?
-- How has artistic diversity changed over time?
-- What is the gender distribution of artists represented in museums?
-- Which nationalities are underrepresented?
+- Which nationalities are most represented?
+- What is the gender distribution of artists?
+- Which historical periods are most represented?
+- How diverse is the museum collection?
 
-Without complete metadata, statistical analyses become incomplete and may lead to misleading conclusions.
+Without complete metadata, visualisations often represent **missing information rather than reality**, producing incomplete or misleading conclusions.
 
-Metadata enrichment improves the completeness of the dataset by recovering missing information from trusted external knowledge bases such as Wikidata.
+Linked Open Data resources such as **Wikidata** provide a scalable solution for enriching existing datasets while maintaining their original information.
 
-Rather than changing existing information, the enrichment process only fills missing values while preserving the original dataset.
-
-This produces a richer dataset that supports more accurate Digital Humanities research and improves semantic interoperability.
+The objective of this project is therefore not simply to increase completeness, but to improve the quality and reliability of future analyses.
 
 ---
 
 # Research Questions
 
-This project addresses the following research questions:
+This project investigates the following questions:
 
-1. How complete is the original MoMA artist metadata?
-
-2. Which artists require metadata enrichment?
-
-3. Can Wikidata successfully recover missing metadata?
-
-4. How does metadata enrichment improve dataset completeness?
-
-5. How does metadata enrichment support more reliable Digital Humanities research?
+1. How complete is the original MoMA artist dataset?
+2. Can Wikidata successfully enrich missing artist metadata?
+3. How many artists can be confidently matched automatically?
+4. Which metadata fields benefit the most from enrichment?
+5. How does metadata enrichment improve downstream analyses?
+6. What limitations remain after enrichment?
 
 ---
 
 # Dataset
 
-Source:
+## Source
+
+Museum of Modern Art (MoMA)
+
+https://www.moma.org/
+
+Dataset
 
 https://www.kaggle.com/datasets/momanyc/museum-collection
 
-Dataset:
+External Knowledge Base
 
-artists.csv
+https://www.wikidata.org/
 
-License:
+Wikidata API
 
-Creative Commons CC0 1.0 Universal
-
-https://creativecommons.org/publicdomain/zero/1.0/
-
-Date accessed:
-
-11 May 2026
+https://www.wikidata.org/w/api.php
 
 ---
 
@@ -83,51 +91,49 @@ Date accessed:
 
 The dataset contains metadata describing artists represented in the Museum of Modern Art collection.
 
-Main variables include:
+Important attributes include:
 
 - Artist ID
-- Name
+- Artist Name
 - Nationality
 - Gender
 - Birth Year
 - Death Year
 
-Original dataset size:
-
-**15,091 artists**
+Several records contain missing metadata, motivating the enrichment process.
 
 ---
 
 # Project Workflow
 
-The project follows a complete Digital Humanities data lifecycle.
-
-```
+```text
 Original MoMA Dataset
         │
         ▼
 Data Cleaning
         │
         ▼
-Missing Value Detection
+Prepare Artists
         │
         ▼
-Dataset Preparation
+Query Wikidata API
         │
         ▼
-Entity Matching with Wikidata
+Entity Matching
+        │
+        ├── Matched
+        ├── Uncertain
+        ├── Not Found
+        └── Error
         │
         ▼
-Metadata Enrichment
+Update Missing Metadata
         │
         ▼
-Impact Analysis
+Generate Enriched Dataset
         │
         ▼
-Visualisation
-        │
-        ▼
-Documentation & GitHub Publication
+Analysis & Visualisation
 ```
 
 ---
@@ -136,310 +142,242 @@ Documentation & GitHub Publication
 
 ## 1. Data Cleaning
 
-The original dataset was inspected using Python and Pandas.
+The original dataset was inspected and prepared by:
 
-Cleaning included:
-
-- detecting missing values
-- checking dataset completeness
-- descriptive statistics
-- exporting clean subsets
+- removing invalid values
+- checking missing metadata
+- standardising artist names
+- preparing records for API queries
 
 ---
 
-## 2. Dataset Preparation
+## 2. Metadata Enrichment
 
-Artists missing one or more metadata fields were extracted into a new dataset.
+Each artist name was queried using the Wikidata API.
 
-Prepared dataset:
+Candidate entities were evaluated using available metadata including:
 
-**10,525 artists**
+- Name
+- Nationality
+- Gender
+- Birth Year
+- Death Year
 
-These records became candidates for Wikidata enrichment.
+The best candidate was automatically selected whenever possible.
 
 ---
 
 ## 3. Entity Matching
 
-Each artist name was queried against the Wikidata API.
+Each artist was assigned one of four matching outcomes.
 
-Potential matches were evaluated using:
-
-- Name
-- Birth Year
-- Death Year
-- Nationality
-- Gender
-- Occupation
-
-Each record received one of four labels:
-
-- matched
-- uncertain
-- not_found
-- error
-
-This process minimizes incorrect entity linking while maintaining high metadata quality.
+| Status | Description |
+|---------|-------------|
+| Matched | Reliable Wikidata entity identified |
+| Uncertain | Multiple candidate entities remained |
+| Not Found | No suitable Wikidata entity available |
+| Error | API or processing error |
 
 ---
 
-## 4. Metadata Enrichment
+## 4. Dataset Update
 
-Only missing metadata were filled.
+Only missing metadata was enriched.
 
-Existing information was never overwritten.
-
-Recovered metadata include:
-
-- Wikidata ID
-- Birth Year
-- Death Year
-
----
-
-## 5. Evaluation
-
-The enriched dataset was compared against the original dataset to evaluate the overall impact of metadata enrichment.
-
-Evaluation focused on:
-
-- successful entity matches
-- recovered metadata
-- completeness improvement
-- dataset quality
-
----
-
-# Tools and Technologies
-
-| Tool | Purpose |
-|------|----------|
-| Python | Data cleaning, enrichment and analysis |
-| Pandas | Data manipulation |
-| Requests | Wikidata API communication |
-| Matplotlib | Data visualisation |
-| Jupyter Notebook | Reproducible research |
-| Git | Version control |
-| GitHub | Repository hosting |
-| Wikidata API | Metadata enrichment |
-| Anaconda | Python environment |
-| ChatGPT (Vibe Coding) | Assisted development, debugging and documentation |
+Existing values were preserved, ensuring that the original dataset remained unchanged.
 
 ---
 
 # Results
 
-## Original dataset
+## Entity Matching Performance
 
-**15,091 artists**
+![Entity Matching Results](images/entity_matching_results.png)
 
----
+### Interpretation
 
-## Artists requiring enrichment
+The enrichment pipeline successfully matched approximately half of all queried artists.
 
-**10,525 artists**
+Only a very small number of API errors occurred.
 
----
+Remaining unmatched artists were mainly due to ambiguous names or unavailable Wikidata records.
 
-## Entity Matching Results
-
-| Status | Artists |
-|---------|---------:|
-| Matched | 5,186 |
-| Uncertain | 1,944 |
-| Not Found | 3,375 |
-| Error | 20 |
-
-Overall successful match rate:
-
-**49.3%**
-
-<<<<<<< HEAD
-=======
-<img width="587" height="579" alt="image" src="https://github.com/user-attachments/assets/03714db5-18a4-4bf9-a506-b31978cb72a2" />
-
-
->>>>>>> 9e7a2169cd5a73b2174d3a26658331cb77089869
----
-
-## Metadata Recovery
-
-The enrichment workflow successfully recovered thousands of missing metadata values including:
-
-- Birth Years
-- Death Years
-- Wikidata Identifiers
-
-This substantially improves dataset completeness while preserving the original metadata.
+The results demonstrate that Linked Open Data can substantially improve metadata completeness while maintaining data quality.
 
 ---
 
 # Why Metadata Enrichment Matters
 
+Completeness is not the final objective.
+
+The real objective is obtaining **more reliable analyses**.
+
 Consider the following research question:
 
-> **How many artists born between 1900 and 1950 are represented in the MoMA collection?**
+> **What is the gender distribution of artists represented in the MoMA collection?**
 
 ### Before enrichment
 
-Many artists had missing birth years.
+Many artists contained missing gender information.
 
-These artists could not be included in chronological analyses.
-
-Result:
-
-Incomplete statistics
-
-Incomplete statistics
->>>>>>> 9e7a2169cd5a73b2174d3a26658331cb77089869
-
----
+Any analysis underestimated the true number of male and female artists, resulting in biased conclusions.
 
 ### After enrichment
 
-Thousands of missing birth years were recovered using Wikidata.
+Thousands of missing values were completed using Wikidata.
 
-More artists can now be placed on historical timelines.
+The resulting visualisation provides a much more realistic representation of the museum collection.
 
-Result:
+Instead of analysing missing information, we are analysing the artists themselves.
 
-More complete and reliable analyses.
+This illustrates the practical value of metadata enrichment.
 
-Rather than claiming absolute truth, the enriched dataset provides a **more complete representation** of the available knowledge.
+---
 
+# Key Findings
 
-More complete and reliable analyses.
+![Gender Results](images/gender_results.png)
 
-Rather than claiming absolute truth, the enriched dataset provides a **more complete representation** of the available knowledge.
+### Interpretation
 
-<img width="784" height="484" alt="image" src="https://github.com/user-attachments/assets/e1c9c81c-2e39-495d-b52b-7a22e02c0fbe" />
+Metadata enrichment significantly reduced missing gender values.
 
+Consequently:
 
->>>>>>> 9e7a2169cd5a73b2174d3a26658331cb77089869
+- demographic analyses became more reliable;
+- the proportion of unknown values decreased;
+- visualisations better reflected the actual museum collection;
+- conclusions drawn from the dataset became more representative of reality.
+
 ---
 
 # Key Outcomes
 
-The project demonstrates that metadata enrichment significantly improves cultural heritage datasets.
+This project demonstrates that:
 
-Main achievements include:
+- Linked Open Data can significantly improve museum datasets.
+- Automatic entity matching can successfully enrich thousands of records.
+- Existing metadata can be preserved while enriching only missing values.
+- Enriched datasets produce analyses that are considerably closer to reality.
+- Reproducible enrichment pipelines can support future cultural heritage research.
 
-- Automated entity matching using Wikidata
-- Recovery of missing metadata
-- Improved dataset completeness
-- More reliable demographic analysis
-- Better support for Digital Humanities research
-- Fully reproducible workflow
-- Public GitHub repository with documentation
+---
 
-<<<<<<< HEAD
-=======
-<img width="683" height="384" alt="image" src="https://github.com/user-attachments/assets/5a39c86b-51a1-439b-97d0-0079ead6ea01" />
+# Tools & Technologies
 
+| Tool | Purpose |
+|-------|---------|
+| Python | Data Processing |
+| Pandas | Data Manipulation |
+| Requests | Wikidata API |
+| Matplotlib | Visualisation |
+| Jupyter Notebook | Analysis |
+| Git | Version Control |
+| GitHub | Repository Hosting |
 
->>>>>>> 9e7a2169cd5a73b2174d3a26658331cb77089869
 ---
 
 # FAIR Principles
 
-The project follows the FAIR principles.
+This project follows the FAIR principles.
 
 ### Findable
 
-- GitHub repository
-- Structured documentation
+- Public GitHub repository
+- Public dataset
+- Wikidata identifiers
 
 ### Accessible
 
-- Open dataset
-- Open-source code
+- Open APIs
+- Open datasets
+- Public documentation
 
 ### Interoperable
 
-- Wikidata identifiers enable semantic interoperability
+- CSV files
+- Standard metadata
+- Wikidata identifiers
 
 ### Reusable
 
-- Documented workflow
-- Version-controlled repository
-- Reproducible notebooks
+- Open-source implementation
+- Reproducible workflow
+- Well-documented notebooks
 
 ---
 
-# Open Science
+# Open Scholarship
 
-The project promotes Open Science by providing:
+This project promotes Open Scholarship through:
 
-- Open-source code
-- Public documentation
-- Reproducible notebooks
+- Open-source implementation
+- Reproducible analyses
 - Public datasets
-- Version control using Git
+- Open APIs
 - Transparent methodology
+- Version-controlled development
 
 ---
 
 # Repository Structure
 
-```
-project/
-
+```text
+openproject-SoSe-2026/
 │
-
 ├── data/
-
 │   ├── artists.csv
-
-│   ├── artists_statistics.csv
-
-│   ├── artists_all_fields_complete.csv
-
-│   ├── artists_missing_dates.csv
-
 │   ├── artists_prepared_for_wikidata.csv
-
 │   ├── data_artists_enriched.csv
-
+│   ├── artists_statistics.csv
 │   ├── enrichment_summary.csv
-
-│   └── project_summary.csv
-
+│   ├── artists_missing_dates.csv
+│   └── artists_all_fields_complete.csv
 │
-
 ├── notebook/
-
 │   ├── create_update_notebook.ipynb
-
 │   ├── Data_enrichment.ipynb
-
-│   └── Results_analysis.ipynb
-
+│   ├── impacts_and_results.ipynb
+│   └── results_and_analysis.ipynb
 │
-
+├── images/
+│   ├── entity_matching_results.png
+│   ├── gender_results.png
+│   └── ...
+│
 ├── README.md
-
 └── .gitignore
 ```
 
 ---
 
+# Limitations
+
+Although the enrichment pipeline significantly improves metadata completeness, several limitations remain.
+
+- Ambiguous artist names cannot always be resolved automatically.
+- Wikidata itself may contain incomplete or outdated information.
+- API rate limits affect processing speed.
+- Some uncertain matches still require manual verification.
+
+---
+
 # Future Work
 
-Possible future improvements include:
+Future improvements may include:
 
-- SPARQL-based semantic queries
-- Additional metadata fields
+- SPARQL-based semantic enrichment
 - Occupation enrichment
-- Place of birth enrichment
-- Museum collection comparison
-- Improved entity disambiguation using machine learning
-- Integration with Linked Open Data resources
+- Place of birth and death enrichment
+- Artistic movement enrichment
+- Integration with additional Linked Open Data sources
+- Machine Learning for entity disambiguation
 
 ---
 
 # References
 
-Museum of Modern Art Collection
+Museum of Modern Art
 
 https://www.moma.org/
 
@@ -454,11 +392,3 @@ https://www.wikidata.org/
 Wikidata API
 
 https://www.wikidata.org/w/api.php
-
-FAIR Principles
-
-<<<<<<< HEAD
-https://www.go-fair.org/fair-principles/
-=======
-https://www.go-fair.org/fair-principles/
->>>>>>> 9e7a2169cd5a73b2174d3a26658331cb77089869
