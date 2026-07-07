@@ -254,6 +254,12 @@ Overall successful match rate:
 
 **49.3%**
 
+<<<<<<< HEAD
+=======
+<img width="587" height="579" alt="image" src="https://github.com/user-attachments/assets/03714db5-18a4-4bf9-a506-b31978cb72a2" />
+
+
+>>>>>>> 9e7a2169cd5a73b2174d3a26658331cb77089869
 ---
 
 ## Metadata Recovery
@@ -282,7 +288,11 @@ These artists could not be included in chronological analyses.
 
 Result:
 
+<<<<<<< HEAD
 ❌ Incomplete statistics
+=======
+Incomplete statistics
+>>>>>>> 9e7a2169cd5a73b2174d3a26658331cb77089869
 
 ---
 
@@ -294,10 +304,20 @@ More artists can now be placed on historical timelines.
 
 Result:
 
+<<<<<<< HEAD
 ✅ More complete and reliable analyses.
 
 Rather than claiming absolute truth, the enriched dataset provides a **more complete representation** of the available knowledge.
 
+=======
+More complete and reliable analyses.
+
+Rather than claiming absolute truth, the enriched dataset provides a **more complete representation** of the available knowledge.
+
+<img width="784" height="484" alt="image" src="https://github.com/user-attachments/assets/e1c9c81c-2e39-495d-b52b-7a22e02c0fbe" />
+
+
+>>>>>>> 9e7a2169cd5a73b2174d3a26658331cb77089869
 ---
 
 # Key Outcomes
@@ -314,6 +334,12 @@ Main achievements include:
 - Fully reproducible workflow
 - Public GitHub repository with documentation
 
+<<<<<<< HEAD
+=======
+<img width="683" height="384" alt="image" src="https://github.com/user-attachments/assets/5a39c86b-51a1-439b-97d0-0079ead6ea01" />
+
+
+>>>>>>> 9e7a2169cd5a73b2174d3a26658331cb77089869
 ---
 
 # FAIR Principles
@@ -433,4 +459,8 @@ https://www.wikidata.org/w/api.php
 
 FAIR Principles
 
+<<<<<<< HEAD
 https://www.go-fair.org/fair-principles/
+=======
+https://www.go-fair.org/fair-principles/
+>>>>>>> 9e7a2169cd5a73b2174d3a26658331cb77089869
