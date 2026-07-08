@@ -214,8 +214,6 @@ Completeness is not the final objective.
 
 The real objective is obtaining **more reliable analyses**.
 
-Consider the following research question:
-
 > **What is the gender distribution of artists represented in the MoMA collection?**
 
 ### Before enrichment
@@ -230,7 +228,7 @@ Thousands of missing values were completed using Wikidata.
 
 The resulting visualisation provides a much more realistic representation of the museum collection.
 
-Instead of analysing missing information, we are analysing the artists themselves.
+Instead of analysing missing information, I am analysing the artists themselves.
 
 This illustrates the practical value of metadata enrichment.
 
