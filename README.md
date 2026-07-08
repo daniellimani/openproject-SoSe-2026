@@ -189,6 +189,9 @@ Existing values were preserved, ensuring that the original dataset remained unch
 
 ---
 
+<img width="763" height="361" alt="image" src="https://github.com/user-attachments/assets/c8de97d1-1475-4e9d-adae-05fe35ab2650" />
+
+
 # Results
 
 ## Entity Matching Performance
